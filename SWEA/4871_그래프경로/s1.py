@@ -2,6 +2,7 @@ import sys
 
 sys.stdin = open('sample_input.txt')
 
+
 def dfs(S, G):
     stack = [S]
     while stack:
@@ -16,13 +17,13 @@ def dfs(S, G):
                     stack.append(w)
     return 0                                            # 만약 G를 찾지 못하고 끝까지 순환했다면, 0을 반환
 
+
 T = int(input())
 
 
 for tc in range(1, T+1):
     # nod V, Edge E
     V, E = map(int, input().split())
-
 
     # temp_list
     temp = []

@@ -31,9 +31,17 @@ ID - abcgusdud
 
 
 
+## Programmers
+
+E-mail - bizyoung93@gmail.com
+
+프로그래머스에서 푼 문제들입니다.
+
+
+
 ## SWEA
 
-ID - Cr-Mo-Marco-3000
+Nickname - Cr-Mo-Marco-3000
 
 SW Expert Academy에서 푼 문제들입니다.
 

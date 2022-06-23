@@ -15,7 +15,8 @@ def power2(n, k):
         answer *= n
     return answer
 
-# 재귀 활용
+
+# 3. 재귀 활용 => 수가 커질 때를 대비해서 나머지를 고려하는 방법은 BOJ 1629번 또는 18291번 참고
 def power3(n, k):
     if k == 1:
         return n
@@ -44,4 +45,4 @@ def power4(n, k):
 # print(power3(10, 30))
 
 # 씨발 반복문은 이해 못하겠다
-# print(power4(10, 15))
+print(power4(2, 10**9))

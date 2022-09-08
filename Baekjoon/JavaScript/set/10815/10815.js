@@ -1,0 +1,6 @@
+let [N, nList, M, mList] = require('fs')
+  .readFileSync('/dev/stdin')
+  .readFileSync('input.txt')
+  .toString()
+  .trim()
+  .split('')
